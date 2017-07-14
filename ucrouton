@@ -1,0 +1,5 @@
+#!/bin/bash
+for aName in "$@"
+do
+	sudo sh crouton -u -n $aName
+done
